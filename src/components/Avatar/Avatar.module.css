@@ -1,0 +1,35 @@
+.avatar{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.available{
+    width: 7px;
+    height: 7px;
+    color: #000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    border: 1px solid #fff;
+}
+.notActive{
+    background-color: skyblue;
+
+}
+.active{
+    background-color: red;
+}

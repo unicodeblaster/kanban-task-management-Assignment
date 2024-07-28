@@ -1,0 +1,4 @@
+.PriorityContainer{
+    display: flex;
+    flex-wrap: wrap;
+}

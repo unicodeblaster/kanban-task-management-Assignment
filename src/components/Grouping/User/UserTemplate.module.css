@@ -1,0 +1,61 @@
+.UserContainer{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0.5rem;
+}
+.header{
+    width: calc(100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1px;
+}
+
+.left,.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+.done{
+    background-color: blue;
+    padding: 1px;
+}
+
+.itemLength{
+    color:#8F9297;
+    margin-left: 5px;
+}
+
+.userName{
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.add, .more{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+    .UserContainer{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1200px) {
+    .UserContainer{
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .UserContainer{
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .UserContainer{
+        width: 20%;
+    }
+}
